@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FCVstyle.css">
+    <title>Formulario - CV</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Fomulario - Curriculum Vitae</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombres y Apellidos:</span>
+                    <input class="cajas" type="text" placeholder="Ingrese aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Fecha de Nacimiento:</span>
+                    <input class="cajas" type="date" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Ocupación:</span>
+                    <input class="cajas" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Teléfono:</span>
+                    <input class="cajas" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail:</span>
+                    <input class="cajas" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nacionalidad:</span>
+                    <input class="cajas" list="nacionalidad" placeholder="Seleccione Una">
+                        <datalist id="nacionalidad">
+                            <option value="Peruano"></option>
+                            <option value="Colombiano"></option>
+                            <option value="Ecuatoriano"></option>
+                            <option value="Boliviano"></option>
+                            <option value="Portugues"></option>
+                            <option value="Holandés"></option>
+                            <option value="Ucraniano"></option>
+                            <option value="Ruso"></option>
+                            <option value="Giorgiano"></option>
+                            <option value="Italiano"></option>
+                        </datalist>
+                </div>
+                <div class="input-box-english">
+                    <span class="details">Nivel de Inglés:</span><br>
+                    <input type="radio" name="nivel">Básico<br>
+                    <input type="radio" name="nivel">Intermedio<br>
+                    <input type="radio" name="nivel">Avanzado<br>
+                    <input type="radio" name="nivel">Fluido<br>
+                </div>
+                <div class="input-box-languages">
+                    <span class="details">Lenguajes de Programación:</span><br>
+                    <select class="cajas" multiple>
+                        <option value="l1">Python</option>
+                        <option value="l2">C++</option>
+                        <option value="l3">C</option>
+                        <option value="l4">C#</option>
+                        <option value="l5">Java</option>
+                        <option value="16">HTML</option>
+                        <option value="17">JavaScript</option>
+                        <option value="18">PHP</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Aptitudes:</span>
+                    <input class="cajas" list="aptitudes" placeholder="Seleccione Una">
+                    <datalist id="aptitudes">
+                        <option value="Liderazgo"></option>
+                        <option value="Resolución de problemas">
+                        <option value="Creatividad"></option>
+                        <option value="Competencias digitales">
+                        <option value="Adaptabilidad">
+                    </datalist>
+                </div>
+            </div>
+            <div class="gender-skills">
+                <span class="skills-title">Habilidades:</span>
+                <div class="category">
+                    <label for="">
+                        <input type="checkbox" id="Habilidad1" name="habilidad1" value="Trabajo">
+                        <span class="gender">Trabajo en Equipo</span><br>
+                    </label>
+                    <label for="">
+                        <input type="checkbox" id="Habilidad2" name="habilidad2" value="Comunicación">
+                        <span class="gender">Comunicación</span><br>
+                    </label>
+                    <label for="">
+                        <input type="checkbox" id="Habilidad3" name="habilidad3" value="Liderazgo">
+                        <span class="gender">Liderazgo</span><br>
+                    </label>
+                    <label for="">
+                        <input type="checkbox" id="Habilidad4" name="habilidad4" value="Creatividad">
+                        <span class="gender">Creatividad</span><br>
+                    </label>
+                    <label for="">
+                        <input type="checkbox" id="Habilidad5" name="habilidad5" value="Aprendizaje">
+                        <span class="gender">Aprendizaje Continuo</span><br>
+                    </label> 
+                </div>
+            <div class="input-box-perfil">
+                <span class="perfil">Perfíl:</span><br>
+                <textarea name="perfil" style="height: 200px; width: 740px;"  placeholder="Ingrese su perfil..." required></textarea>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
