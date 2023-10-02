@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleD.css">
+    <title>Formulario Dinámico</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Fomulario Dinámico</div>
+        <form action="direction.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombres y Apellidos:</span>
+                    <input class="cajas" name="complete_name" type="text" placeholder="Ingrese aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Fecha de Nacimiento:</span>
+                    <input class="cajas" name="date" type="date" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Ocupación:</span>
+                    <input class="cajas" name="ocu" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Teléfono:</span>
+                    <input class="cajas" name="cellphone" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail:</span>
+                    <input class="cajas" name="email" type="text" placeholder="Ingrese Aquí" required><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nacionalidad:</span>
+                    <input class="cajas" name="nationality" list="nacionalidad" placeholder="Seleccione Una">
+                        <datalist id="nacionalidad">
+                            <option value="Peruano"></option>
+                            <option value="Colombiano"></option>
+                            <option value="Ecuatoriano"></option>
+                            <option value="Boliviano"></option>
+                            <option value="Portugues"></option>
+                            <option value="Holandés"></option>
+                            <option value="Ucraniano"></option>
+                            <option value="Ruso"></option>
+                            <option value="Giorgiano"></option>
+                            <option value="Italiano"></option>
+                        </datalist>
+                </div>
+                <div class="input-box-english">
+                    <span class="details">Idiomas:</span><br>
+                    <textarea name="idi" style="height: 100px; width: 350px;"  placeholder="Ingrese sus Idiomas..." required></textarea>
+                </div>
+                <div class="input-box-languages">
+                    <span class="details">Lenguajes de Programación:</span><br>
+                    <select class="cajas" multiple>
+                        <option value="l1">Python</option>
+                        <option value="l2">C++</option>
+                        <option value="l3">C</option>
+                        <option value="l4">C#</option>
+                        <option value="l5">Java</option>
+                        <option value="16">HTML</option>
+                        <option value="17">JavaScript</option>
+                        <option value="18">PHP</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">Aptitudes:</span>
+                    <textarea name="aptitut" style="height: 100px; width: 350px;"  placeholder="Ingrese sus Aptitudes..." required></textarea>
+                </div>
+                <div class="input-box">
+                    <span class="skills-title">Habilidades:</span>
+                    <textarea name="habilitys" style="height: 100px; width: 350px;"  placeholder="Ingrese sus Habilidades..." required></textarea>
+                </div>    
+                <div class="input-box">
+                    <span class="perfil">Perfíl:</span><br>
+                    <textarea name="perfil" style="height: 200px; width: 740px;"  placeholder="Ingrese su perfil..." required></textarea>
+                </div>
+                <div class="input-box-El">
+                    <span class="Experiencia Laboral:">Experiencia Laboral:</span>
+                    <textarea name="EL" style="height: 200px; width: 740px;" placeholder="Ingrese su experiencia laboral..."required></textarea>
+                </div>
+                <div class="input-box-Form">
+                    <span class="Formacion:">Formación:</span>
+                    <textarea name="forma" style="height: 200px; width: 740px;" placeholder="Ingrese su formación..."required></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
