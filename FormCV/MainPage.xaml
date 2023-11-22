@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormCV.MainPage">
+
+    <StackLayout BackgroundColor="LightGreen">
+        <Label Text="Form and CV" FontSize="40" FontAttributes="Bold" Margin="0,20,0,0" HorizontalOptions="Center" />
+        <Frame VerticalOptions="FillAndExpand" Margin="20" CornerRadius="10" HasShadow="False">
+            <StackLayout VerticalOptions="Center">
+                <Label Text="Nombres" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"/>
+                <Entry x:Name="nombresEntry" Placeholder="Ingrese aquí" Margin="10"/>
+                
+                <Label Text="Apellidos" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"/>
+                <Entry x:Name="apellidosEntry" Placeholder="Ingrese aquí" Margin="10"/>
+                
+                <Label Text="Correo" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"/>
+                <Entry x:Name="correoEntry" Placeholder="Ingrese aquí" Margin="10"/>
+                
+                <Label Text="Ocupación" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"/>
+                <Entry x:Name="ocupacionEntry" Placeholder="Ingrese aquí" Margin="10"/>
+                
+                <Label Text="Teléfono" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"/>
+                <Entry x:Name="telefonoEntry" Placeholder="Ingrese aquí" Margin="10"/>
+                
+                <Button Text="Enviar" TextTransform="None" Background="lightgreen" CornerRadius="10" FontSize="Medium" FontAttributes="Bold" Margin="20" Clicked="OnSubmitClicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\bin\Debug\netstandard2.0\FormCV.deps.json
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\bin\Debug\netstandard2.0\FormCV.dll
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\bin\Debug\netstandard2.0\ref\FormCV.dll
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\bin\Debug\netstandard2.0\FormCV.pdb
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.csproj.AssemblyReference.cache
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.AssemblyInfoInputs.cache
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.AssemblyInfo.cs
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.csproj.CoreCompileInputs.cache
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.dll
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\refint\FormCV.dll
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\FormCV.pdb
+D:\Universidad Católica San Pablo\Tercer Semetre\Desarrollo Basado en Plataformas\Tareas\FormCV\FormCV\obj\Debug\netstandard2.0\CV.xaml.g.cs
